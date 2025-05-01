@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Opens Sans, sans-serif;
+}
+
+main{
+    background-color: #F4F4F4;
+}
+
+h1{
+    font-family: "Cinzel", serif;
+    font-size: 36px;
+}
+
+p{
+    font-family: Opens Sans, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.menu .nav-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #2E86AB;
+}
+
+.menu .nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu .nav-list li a:hover{
+    background-color: #4B6F44;
+    transition: background-color 0.3s ease;
+}
+
+.apresentacao{
+    background-image: url("https://segredosdomundo.r7.com/wp-content/uploads/2019/09/14-curiosidades-sobre-machu-picchu-14.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 83vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.apresentacao-texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    border: 2px solid #fff;
+}
+
+.apresentacao-texto h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.apresentacao-texto p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.apresentacao-texto img{
+    max-width: 20vh;
+}
+
+.rodape{
+    background-color: #2E86AB;
+    color: #fff;
+    text-align: center;
+    padding: 23px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape p{
+    margin: 0;
+    font-size: 1rem;
+    color: #fff;
+}
+.rodape a{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Cinzel", serif;
+}

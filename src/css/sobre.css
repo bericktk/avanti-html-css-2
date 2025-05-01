@@ -1,0 +1,32 @@
+.banner-apresentacao{
+    background-color: #A0522D;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-apresentacao h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sobre-peru{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem;
+}
+
+.sobre-peru img{
+    max-width: 100%;
+}
+
+.sobre-peru p{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 20px 0;
+    max-width: 70vh;
+}
