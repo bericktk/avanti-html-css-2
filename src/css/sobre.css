@@ -18,10 +18,11 @@
     flex-direction: row;
     align-items: center;
     padding: 3rem;
+    flex-wrap: wrap;
 }
 
 .sobre-peru img{
-    max-width: 100%;
+    max-width: 60vh;
 }
 
 .sobre-peru p{
@@ -29,4 +30,32 @@
     text-align: justify;
     margin: 20px 0;
     max-width: 70vh;
+}
+
+.galeria-imagens{
+    border: 1px solid #000000;
+}
+
+.galeria-imagens h1{
+    text-align: center;
+}
+
+.imagem-galeria{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 15px;
+}
+
+.imagem-galeria img{
+    width: 100%;
+    max-height: 30vh;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.imagem-galeria img:hover{
+    transform: scale(1.05);
 }
